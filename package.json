@@ -1,6 +1,6 @@
 {
     "name": "react-native-safe-area-plus",
-    "version": "0.0.2",
+    "version": "1.0.0",
     "description": "A flexible way to handle safe area, also works on Android and iOS",
     "main": "index.js",
     "types": "index.d.ts",

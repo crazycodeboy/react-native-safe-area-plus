@@ -1,11 +1,11 @@
-# react-native-navbar-plus
+# react-native-safe-area-plus
 
 A flexible way to handle safe area, also works on Android and iOS.
 
-[ ![release](https://img.shields.io/github/release/crazycodeboy/react-native-navbar-plus.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/react-native-navbar-plus/releases)
-[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/react-native-navbar-plus/pulls)
-[ ![NPM version](http://img.shields.io/npm/v/react-native-navbar-plus.svg?style=flat)](https://www.npmjs.com/package/react-native-navbar-plus)
-[![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/crazycodeboy/react-native-navbar-plus/master/LICENSE)
+[ ![release](https://img.shields.io/github/release/crazycodeboy/react-native-safe-area-plus.svg?maxAge=2592000?style=flat-square)](https://github.com/crazycodeboy/react-native-safe-area-plus/releases)
+[ ![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/crazycodeboy/react-native-safe-area-plus/pulls)
+[ ![NPM version](http://img.shields.io/npm/v/react-native-safe-area-plus.svg?style=flat)](https://www.npmjs.com/package/react-native-safe-area-plus)
+[![License MIT](http://img.shields.io/badge/license-MIT-orange.svg?style=flat)](https://raw.githubusercontent.com/crazycodeboy/react-native-safe-area-plus/master/LICENSE)
 
 
 ## Content
@@ -17,29 +17,27 @@ A flexible way to handle safe area, also works on Android and iOS.
 
 ## Installation
 
-* 1.Run `npm i react-native-navbar-plus --save`
-  * or  `yarn add react-native-navbar-plus`
-* 2.`import NavigationBar from 'react-native-navbar-plus'`
+* 1.Run `npm i react-native-safe-area-plus --save`
+  * or  `yarn add react-native-safe-area-plus`
+* 2.`import SafeAreaViewPlus from 'react-native-safe-area-plus'`
 
 
 ## Getting started
 
-Add `react-native-navbar-plus` to your js file.
+Add `react-native-safe-area-plus` to your js file.
 
-`import NavigationBar from 'react-native-navbar-plus'`
+`import SafeAreaViewPlus from 'react-native-safe-area-plus'`
 
 Inside your component's render method, use Toast:
 
 ```javascript
  render() {
-     return <View>
-     <NavigationBar
-        title={title}
-        leftButton={}
-        style={{}}
-        rightButton={}
-      />
-     </View>
+     return (
+         <SafeAreaViewPlus>
+         ...
+         </SafeAreaViewPlus>
+     );
+ }
 ```
 
 ## Contribution
