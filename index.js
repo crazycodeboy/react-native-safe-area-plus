@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 import {
     SafeAreaView,
     StyleSheet,
-    View,
-    ViewPropTypes
+    View
 } from 'react-native';
 import { isIPhoneX } from 'react-native-isiphonex-device';
+import { ViewPropTypes } from 'deprecated-react-native-prop-types';
 
 export default class SafeAreaViewPlus extends Component {
     static propTypes = {
